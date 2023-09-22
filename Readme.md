@@ -5,6 +5,7 @@ This package is a jsonapi that allows for the json serialization and deserializa
 To install, download the folder and run the project with "python -m build" to create a tarfile and wheel
 
 Given a complex number, our api will call encode/decode complex which returns the following:
+
     def encode_complex(self, c):
         return {"real": c.real, "imag": c.imag}
 
