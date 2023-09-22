@@ -6,9 +6,9 @@ To install, download the folder and run the project with "python -m build" to cr
 
 Given a complex number, our api will call encode/decode complex which returns the following:
 
-    def encode_complex(self, c):
-        return {"real": c.real, "imag": c.imag}
 
     def decode_complex(self, obj):
         return complex(obj["real"], obj["imag"])
+    def encode_complex(self, c):
+        return {"real": c.real, "imag": c.imag}
 
